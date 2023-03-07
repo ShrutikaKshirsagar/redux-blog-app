@@ -47,7 +47,7 @@
   border-radius: 10px;
   color: #fff;
   padding: 10px;
-  background-color: #950e46;
+  background-color:  #10942d;
   box-shadow: #333 0px 1px 5px;
 }
 .cart-wrapper{
@@ -65,12 +65,25 @@
   padding: 20px;
 
 }
+.cart-count {
+  width: 21px;
+  position: absolute;
+  right: 3px;
+  top: 1%;
+  border-radius: 50%;
+  background-color: #950e46;
+  color: #fff;
+}
+
 .add-to-cart img{
   width: 50px;
   position: absolute;
-  right: 1%;
+  right: 2%;
   top: 1%;
 
+}
+button.remove-item-btn{
+  background-color: #950e46;
 }
 
 /*  */
